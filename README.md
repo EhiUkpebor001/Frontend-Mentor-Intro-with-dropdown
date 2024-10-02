@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro section with dropdown navigation
+# Frontend Mentor - Intro section with dropdown navigation (not responsive)
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
