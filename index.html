@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./images/logo.svg" alt="snap logo">
+      </a>  
+    </div>
+
+    <div class="links">
+      <div class="dropdowns">
+        <h4 id="feature">
+          Features
+          <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" id="arrow-down">
+          <img src="./images/icon-arrow-up.svg" alt="icon-arrow-up" id="arrow-up">
+        </h4>
+
+        <ul class="drop-menu work">
+          <li>
+            <a href="#">
+              <img src="./images/icon-todo.svg" alt="To-do list image">
+              Todo List
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./images/icon-calendar.svg" alt="Calendar image">
+              Calender
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./images/icon-reminders.svg" alt="Reminders image">
+              Reminders
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./images/icon-planning.svg" alt="Planning image">
+              Planning
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdowns">
+        <h4 id="company">
+          Company
+          <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" id="down-arrow">
+          <img src="./images/icon-arrow-up.svg" alt="icon-arrow-up" id="up-arrow">
+        </h4>
+
+        <ul class="drop-menu info">
+          <li>
+            <a href="#">History</a>
+          </li>
+
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <h4 id="career">
+        <a href="#">Careers</a>
+      </h4>
+
+      <h4 id="about">
+        <a href="#">About</a>
+      </h4>
+
+    </div>
+
+    <div class="buttons">
+      <button id="login">Login</button>
+      <button id="register">Register</button>
+    </div>
+
+  </nav>
+
+  <main>
+    <div class="textArea">
+      <h1 id="heading">
+        Make remote work
+      </h1>
+
+      <p id="text">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+
+      <button id="learnMore">Learn more</button>
+
+      <div id="clients">
+        <img src="./images/client-databiz.svg" alt="Databiz" id="client1">
+        <img src="./images/client-audiophile.svg" alt="Audiophile" id="client2">
+        <img src="./images/client-meet.svg" alt="Meet" id="client3">
+        <img src="./images/client-maker.svg" alt="Maker" id="client4">
+      </div>
+
+    </div>
+
+    <div class="imageArea">
+      <img src="./images/image-hero-desktop.png" alt=""  width="100%" height="100%">
+    </div>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ukpebor Ehiremhen</a>.
+  </div>
+</body>
+</html>
